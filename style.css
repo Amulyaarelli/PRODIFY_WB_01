@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.courses
+{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    
+    
+}
+.course-element
+{
+    border: #333;
+    padding: auto;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+    padding: 13px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change to any hover color */
+}
+
+section {
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+div{
+    padding: 10px 10px;
+}
+.courses{
+    padding: 20px 20px;
+}
+#home {
+    background:#f6f4f4;
+}
+
+#about {
+    background: #f3eeee;
+    
+}
+
+#courses{
+    background: #e9e6e6;
+    
+}
+
+#contact {
+    background: #faf4f4;
+
+}
+
+@media (max-width: 0px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+.you-img
+{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+}
+.navbar--scrolled {
+    background-color: #222; /* Change to any color when scrolled */
+}
